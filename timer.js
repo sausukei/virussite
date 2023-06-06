@@ -18,7 +18,7 @@ function updateTimer() {
   // Check if the timer has reached 0
   if (timeLeft < 0) {
     clearInterval(timerInterval);
-    alert("Time's up!");
+    alert("ドッキリ大成功");
   }
 }
 
